@@ -1,0 +1,23 @@
+
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Palindrome</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <ion-item no-lines>
+        <ion-label >text</ion-label>
+        <ion-input type = "text" [(ngModel)]="inputValue" id="input"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <div padding>
+      <button ion-button (click) = "click()">tester</button>
+    </div>
+  </ion-content>
+
+
+<ion-nav [root]="rootPage"></ion-nav>
